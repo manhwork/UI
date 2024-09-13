@@ -97,8 +97,17 @@ h1 {
     margin-right: 30px;
 }
 
+.header .inner-feature > *:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .header .inner-feature:nth-child(3) {
     margin-right: 0;
+}
+
+.header .inner-menu a:hover {
+    font-weight: bold;
 }
 
 /* End Header  */
