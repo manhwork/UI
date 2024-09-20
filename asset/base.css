@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Heebo:wght@100..900&display=swap");
 
 :root {
-    --color-background1: #ffffff;
     --color-background1: #f1f5f8;
     --color-text: #565a61;
     --color-cart: #4d3bc6;
@@ -28,6 +27,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--coler-footer);
 }
 
 li {
