@@ -10,10 +10,6 @@
     --font-title: "EB Garamond", serif;
     --font-description: "Heebo", sans-serif;
 }
-.card {
-    margin: 100px 0;
-}
-
 body {
     font-family: var(--font-description);
     background-color: var(--color-background1);
@@ -22,15 +18,6 @@ body {
 
 .navbar-brand img {
     height: 40px;
-}
-.btn-primary {
-    background-color: var(--color-button);
-    border: none;
-}
-
-.btn-primary:hover {
-    /* background-color: darken(var(--color-button), 10%); */
-    background-color: var(#5f4ecb);
 }
 
 .card {
@@ -44,6 +31,16 @@ body {
 
 .card-title {
     font-family: var(--font-title);
+}
+
+.btn-primary {
+    background-color: var(--color-button);
+    border: none;
+}
+
+.btn-primary:hover {
+    /* background-color: darken(var(--color-button), 10%); */
+    background-color: var(#5f4ecb);
 }
 
 .input-group-text {
